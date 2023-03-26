@@ -1,0 +1,19 @@
+{
+  "name": "import-export-tool",
+  "version": "0.0.1",
+  "description": "Tool to import/export CSV inventory data from LightSpeed (Series S) into a database for use by separate application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Eisenhut",
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/license/mit/"
+  },
+  "dependencies": {
+    "csv": "^6.2.8",
+    "pg": "^8.10.0",
+    "sequelize": "^6.28.0"
+  }
+}
