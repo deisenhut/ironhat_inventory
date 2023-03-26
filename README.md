@@ -18,8 +18,11 @@ The administrator who downloaded the CSV file from the Lightspeed backend should
 This node.js application utilize the CSV and Sequelize libraries to connect to a PostgreSQL database on the localhost named 'IronHat'.  The db/db.js file can be updated to modify the Sequelize initialization to point to a different server/database.
 
 Use the following to import a CSV file into the database (wipes existing data)
+
 <code>node app.js -i -f [CSV File Name] -u [PostgreSQL User Name]</code>
+
 Use the following to export inventory items from the database into a CSV file.
+
 <code>node app.js -e -f [CSV File Name] -u [PostgreSQL User Name]</code>
 
 Note that any changes made to the inventory items by using the point-of-sale system or the backend web-interface between the time the CSV file is downloaded and until it is uploaded back in will be lost.
