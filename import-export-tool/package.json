@@ -7,13 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dan Eisenhut",
-  "license": {
-    "type": "MIT",
-    "url": "https://opensource.org/license/mit/"
-  },
+  "license": "MIT",
   "dependencies": {
     "csv": "^6.2.8",
     "pg": "^8.10.0",
-    "sequelize": "^6.28.0"
+    "sequelize": "~6.30.0"
   }
 }
